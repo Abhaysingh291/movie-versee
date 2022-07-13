@@ -6,7 +6,7 @@ function Header() {
       <span onClick={()=>window.scroll(0,0)} className='header'>  
       <div class="wavy">
         <MovieCreationIcon/>
-      Movies App
+      Movies Verse
       <MovieCreationIcon/>
     </div>
     </span>
