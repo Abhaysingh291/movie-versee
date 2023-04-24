@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { img_300, unavailable } from '../../config/config'
 import './SingleContent.css'
 import Badge from '@mui/material/Badge';
-import ContentModal from '../ContentModal/ContentModal';
 import MyVerticallyCenteredModal from '../MyVerticallyCenteredModal/MyVerticallyCenteredModal';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const SingleContent = ({
-    key,
+    // key,
     id,
     poster,
     title,

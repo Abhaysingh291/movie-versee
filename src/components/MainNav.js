@@ -25,6 +25,7 @@ export default function SimpleBottomNavigation() {
         zIndex:100,
      }}>
       <BottomNavigation
+        style={{ backgroundColor: '#6c757d' }} 
         showLabels
         value={value}
         onChange={(event, newValue) => {

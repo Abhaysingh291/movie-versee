@@ -1,7 +1,6 @@
 import React from 'react'
 import Pagination from '@mui/material/Pagination';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { dark } from '@mui/material/colors';
 const darkTheme=createTheme({
     palette:{
         mode:"dark",

@@ -1,4 +1,3 @@
-import { WindowSharp } from '@mui/icons-material';
 import { Button, createTheme, Tab, Tabs, TextField, ThemeProvider } from '@mui/material'
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
@@ -32,6 +31,7 @@ function Search() {
   useEffect(()=>{
     window.scroll(0,0);
     fetchSearch();
+    // eslint-disable-next-line 
   },[type,page]);
   return (
     <>
@@ -45,11 +45,11 @@ function Search() {
         variant='filled'
         onChange={(e)=>setSearchText(e.target.value)}
         />
+        
         <Button type="submit" onClick= {(e)=>{
-           setCondition(true);
-           e.preventDefault();
+          setCondition(true);
+          e.preventDefault();
           fetchSearch(e);
-         
         }
       }
                 variant="contained"

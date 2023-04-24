@@ -15,7 +15,7 @@ const MyVerticallyCenteredModal = (props) => {
     
         setVideo(data.results[0]?.key);
       };
-        console.log(props.id);
+        // console.log(props.id);
       useEffect(() => {
         fetchVideo();
         // eslint-disable-next-line

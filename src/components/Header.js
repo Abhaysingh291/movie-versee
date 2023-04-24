@@ -4,7 +4,7 @@ import MovieCreationIcon from '@mui/icons-material/MovieCreation';
 function Header() {
   return (
       <span onClick={()=>window.scroll(0,0)} className='header'>  
-      <div class="wavy">
+      <div className="wavy">
         <MovieCreationIcon/>
       Movies Verse
       <MovieCreationIcon/>
